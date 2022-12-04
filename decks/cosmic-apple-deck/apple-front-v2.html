@@ -1,6 +1,8 @@
 <div class="card">
     <div class="header">{{card.name}}</div>
-    <div class="apple"></div>
-    <div class="description">{{card.description}}</div>
-    <div class="footer">A{{#padZeros card.id 3}}{{/padZeros}}</div>
+    <div class="image"></div>
+    <div class="footer">
+        <div class="description">{{card.description}}</div>
+        <div class="id">A{{#padZeros card.id 3}}{{/padZeros}}</div>
+    </div>
 </div>

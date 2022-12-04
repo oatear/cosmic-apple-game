@@ -1,0 +1,45 @@
+.card {
+    width: 825px;
+    height: 1125px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl({{card.hue}}, 30%, 40%);
+    color: hsl({{card.hue}}, 30%, 70%);
+    font-weight: 600;
+    font-size: 50px;
+}
+.card .header {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 80px;
+    font-weight: 600;
+    padding: 45px;
+    background-color: hsl({{card.hue}}, 30%, 50%);
+    color: hsl({{card.hue}}, 30%, 20%);
+}
+.card .apple {
+    flex: 1;
+    padding: 45px;
+    font-size: 150px;
+    background-image: url({{index assets card.name}});
+    background-position: center;
+    background-size: cover;
+}
+.card .description {
+    height: 250px;
+    padding: 60px;
+    background-color: hsl({{card.hue}}, 30%, 30%);
+    color: hsl({{card.hue}}, 30%, 80%);
+}
+.card .footer {
+    //height: 200px;
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 45px;
+    background-color: hsl({{card.hue}}, 30%, 30%);
+    color: hsl({{card.hue}}, 30%, 40%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

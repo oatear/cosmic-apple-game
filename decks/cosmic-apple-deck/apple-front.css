@@ -1,0 +1,35 @@
+.card {
+    width: 825px;
+    height: 1125px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl({{card.hue}}, 30%, 40%);
+    border: 45px solid hsl({{card.hue}}, 30%, 50%);
+    color: hsl({{card.hue}}, 30%, 70%);
+    font-weight: 600;
+    font-size: 50px;
+}
+.card .header {
+    height: 300px;
+    font-size: 80px;
+    font-weight: 600;
+    padding: 10px;
+    padding-top: 60px;
+}
+.card .apple {
+    height: 250px;
+    font-size: 150px;
+}
+.card .content {
+    flex: 1;
+    padding: 50px;
+    padding-top: 60px;
+}
+.card .footer {
+    height: 200px;
+    text-align: right;
+    padding: 100px;
+    padding-right: 50px;
+}

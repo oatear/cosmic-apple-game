@@ -1,0 +1,9 @@
+Name,Count,Front Template,Back Template,Description,Hue
+Poison Apple,1,Apple Front V2,Apple Back,Take one card from an opponent's hand.,110
+Health Apple,1,Apple Front V2,Apple Back,Take a card from the discard pile.,0
+Mystic Apple,1,Apple Front V2,Apple Back,"Draw two cards from the deck, choose one, discard the other.",250
+Crystal Apple,1,Apple Front V2,Apple Back,Every player draws a card and hands you one card from their hand.,175
+Golden Apple,1,Apple Front V2,Apple Back,Collect one gold.,44
+Cosmic Apple,1,Apple Front V2,Apple Back,You win the game.,298
+Fire Apple,1,Apple Front V2,Apple Back,,10
+Liquid Apple,1,Apple Front V2,Apple Back,,205

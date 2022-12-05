@@ -2,9 +2,9 @@ Name,Count,Front Template,Back Template,Description,Hue
 Poison Apple,1,Apple Front V2,Apple Back,"When drawn, you must discard a card or be eliminated.",110
 Health Apple,1,Apple Front V2,Apple Back,Take the top card from the discard pile.,0
 Mystic Apple,1,Apple Front V2,Apple Back,Look at the top 3 cards in the deck and reorder in any order.,250
-Crystal Apple,1,Apple Front V2,Apple Back,"In order, every other player draws a card and hands you one card from their hand.",175
+Crystal Apple,1,Apple Front V2,Apple Back,Play every card in your hand one by one.,175
 Golden Apple,1,Apple Front V2,Apple Back,Look at another player's cards and play one of them.,44
 Cosmic Apple,1,Apple Front V2,Apple Back,"After you play this card, you win the game.",298
-Fire Apple,1,Apple Front V2,Apple Back,Look at another player's cards and discard any multiples.,10
+Fire Apple,1,Apple Front V2,Apple Back,Target player discards two cards from their hand at random.,10
 Liquid Apple,1,Apple Front V2,Apple Back,Draw two cards.,205
 Lightning Apple,1,Apple Front V2,Apple Back,Play the next two cards in the deck in order.,55

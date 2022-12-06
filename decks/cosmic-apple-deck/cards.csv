@@ -1,10 +1,11 @@
-Name,Count,Front Template,Back Template,Description,Hue
-Poison Apple,1,Apple Front V2,Apple Back,"When drawn, you must discard a card or be eliminated.",110
-Health Apple,1,Apple Front V2,Apple Back,Take the top card from the discard pile.,0
-Mystic Apple,1,Apple Front V2,Apple Back,Look at the top 3 cards in the deck and reorder in any order.,250
-Crystal Apple,1,Apple Front V2,Apple Back,Play every card in your hand one by one.,175
-Golden Apple,1,Apple Front V2,Apple Back,Look at another player's cards and play one of them.,44
-Cosmic Apple,1,Apple Front V2,Apple Back,"After you play this card, you win the game.",298
-Fire Apple,1,Apple Front V2,Apple Back,Target player discards two cards from their hand at random.,10
-Liquid Apple,1,Apple Front V2,Apple Back,Draw two cards.,205
-Lightning Apple,1,Apple Front V2,Apple Back,Play the next two cards in the deck in order.,55
+Name,Count,Front Template,Back Template,Description,Hue,Card ID
+Poison Apple,8,Apple Front,Apple Back,"When drawn or taken, you must discard a card from your hand and discard this card. If you cannot discard a card from your hand, you are eliminated.",110,1
+Lush Apple,8,Apple Front,Apple Back,Take the top card from the discard pile.,0,2
+Mystic Apple,5,Apple Front,Apple Back,Look at the top 3 cards in the deck and replace them in any order.,250,3
+Crystal Apple,5,Apple Front,Apple Back,Play every card in your hand one by one.,175,4
+Golden Apple,5,Apple Front,Apple Back,Look at another player's cards and play one of them.,44,5
+Cosmic Apple,1,Apple Front,Apple Back,"After you play this card, you win the game. You cannot play this card the same turn that you draw it. When discarded, it is shuffled back into the deck.",298,6
+Fire Apple,5,Apple Front,Apple Back,Target player discards up to two cards from their hand at random.,10,7
+Liquid Apple,5,Apple Front,Apple Back,Draw two cards.,205,8
+Lightning Apple,5,Apple Front,Apple Back,Play the next two cards in the deck in order. This triggers 'when drawn' effects.,55,9
+Instruction Card,1,Instruction Front,Instruction Back,,0,0

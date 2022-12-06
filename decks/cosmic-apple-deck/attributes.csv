@@ -1,3 +1,4 @@
 Name,Description,Type,Options
-Description,Description of the card,text,
+Description,Description of the card,text-area,
 Hue,Hue of the card,text,
+Card ID,The unique identifier of the card,text,

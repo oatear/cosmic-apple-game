@@ -1,0 +1,41 @@
+.card {
+    width: 825px;
+    height: 1125px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 32px;
+    background-color: hsl({{card.hue}}, 0%, 50%);
+    color: hsl({{card.hue}}, 0%, 20%);
+    background: radial-gradient(
+        hsl({{card.hue}}, 0%, 80%), 
+        hsl({{card.hue}}, 0%, 60%));
+}
+.card .header {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 70px;
+    font-weight: 600;
+    padding: 45px;
+    padding-top: 55px;
+}
+.card .description {
+    flex: 1;
+    height: 250px;
+    padding: 80px;
+    padding-top: 0;
+    text-align: left;
+}
+.card .footer {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.card .footer .id {
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 45px;
+    color: hsl({{card.hue}}, 0%, 40%);
+    font-size: 40px;
+}

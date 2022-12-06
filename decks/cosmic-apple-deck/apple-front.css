@@ -5,31 +5,59 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: hsl({{card.hue}}, 30%, 40%);
-    border: 45px solid hsl({{card.hue}}, 30%, 50%);
-    color: hsl({{card.hue}}, 30%, 70%);
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
+    background-color: hsl({{card.hue}}, 30%, 50%);
 }
 .card .header {
-    height: 300px;
-    font-size: 80px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 60px;
     font-weight: 600;
-    padding: 10px;
-    padding-top: 60px;
+    padding: 45px;
+    padding-top: 55px;
+    background-color: hsl({{card.hue}}, 30%, 50%);
+    color: hsl({{card.hue}}, 30%, 20%);
+    background: radial-gradient(
+        hsl({{card.hue}}, 30%, 60%), 
+        hsl({{card.hue}}, 30%, 50%));
 }
-.card .apple {
-    height: 250px;
-    font-size: 150px;
-}
-.card .content {
+.card .image {
     flex: 1;
-    padding: 50px;
-    padding-top: 60px;
+    padding: 45px;
+    font-size: 150px;
+    background-image: url({{index assets card.name}});
+    background-position: center;
+    background-size: cover;
 }
 .card .footer {
-    height: 200px;
+    background-color: hsl({{card.hue}}, 30%, 30%);
+    color: hsl({{card.hue}}, 30%, 80%);
+    background: radial-gradient(
+        hsl({{card.hue}}, 30%, 40%), 
+        hsl({{card.hue}}, 30%, 30%));
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.card .footer .description {
+    height: 250px;
+    padding: 60px;
+    padding-top: 80px;
+    {{#if (gt card.description.length 100)}}
+        font-size: 36px;
+    {{/if}}
+}
+.card .footer .id {
     text-align: right;
-    padding: 100px;
-    padding-right: 50px;
+    padding-right: 60px;
+    padding-bottom: 45px;
+    color: hsl({{card.hue}}, 30%, 50%);
+}
+.overlay {
+    width: 825px;
+    height: 1125px;
+    top: 0;
+    position: absolute;
+    background-image: url({{assets.card-overlay}});
+    filter: hue-rotate({{add -50 card.hue}}deg);
 }

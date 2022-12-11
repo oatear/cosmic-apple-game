@@ -60,4 +60,5 @@
     position: absolute;
     background-image: url({{assets.card-overlay}});
     filter: hue-rotate({{add -50 card.hue}}deg);
+    border-radius: 25px;
 }

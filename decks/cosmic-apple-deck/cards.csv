@@ -1,11 +1,12 @@
 Name,Count,Front Template,Back Template,Description,Hue,Card ID
-Poison Apple,8,Apple Front,Apple Back,"When drawn or taken, you must discard a card from your hand and discard this card. If you cannot discard a card from your hand, you are eliminated.",110,1
-Lush Apple,8,Apple Front,Apple Back,Take the top card from the discard pile.,0,2
-Mystic Apple,5,Apple Front,Apple Back,Look at the top 3 cards in the deck and replace them in any order.,250,3
-Crystal Apple,5,Apple Front,Apple Back,Play every card in your hand one by one.,175,4
-Golden Apple,5,Apple Front,Apple Back,Look at another player's cards and play one of them.,44,5
-Cosmic Apple,1,Apple Front,Apple Back,"After you play this card, you win the game. You cannot play this card the same turn that you draw it. When discarded, it is shuffled back into the deck.",298,6
+Instruction Card,2,Instruction Front,Instruction Back,,0,0
+Cosmic Apple,1,Apple Front,Apple Back,"After you play this card, you win the game. You cannot play this card the same turn that you draw it. When discarded, it is shuffled back into the deck.",298,1
+Poison Apple,8,Apple Front,Apple Back,"When drawn or taken, you must discard a card from your hand and discard this card. If you cannot discard a card from your hand, you are eliminated.",140,2
+Lush Apple,8,Apple Front,Apple Back,Take the top card from the discard pile.,0,3
+Mystic Apple,5,Apple Front,Apple Back,Look at the top 3 cards in the deck and replace them in any order.,250,4
+Crystal Apple,5,Apple Front,Apple Back,"If another player targets you with the effect of a card on their turn, you may discard this card to reflect the effect back at that player.",175,5
+Golden Apple,5,Apple Front,Apple Back,Look at another player's cards and play one of them.,44,6
 Fire Apple,5,Apple Front,Apple Back,Target player discards up to two cards from their hand at random.,10,7
 Liquid Apple,5,Apple Front,Apple Back,Draw two cards.,205,8
 Lightning Apple,5,Apple Front,Apple Back,Play the next two cards in the deck in order. This triggers 'when drawn' effects.,55,9
-Instruction Card,1,Instruction Front,Instruction Back,,0,0
+Rainbow Apple,5,Apple Front,Apple Back,Play every card in your hand one by one.,320,10

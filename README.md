@@ -4,6 +4,15 @@
         
 # Cosmic Apple
 
+## Game Type
+`Elimination`, `Hand Management`, `Push Your Luck`, `Take That`
+
+## Player Count
+2 - 6 Players
+
+## Weight/Complexity
+1.0/5.0 (low)
+
 </div>
 
 ## Story
@@ -35,6 +44,45 @@ it began mutating apples at an unnatural rate and squeezing them into new forms 
 
 ## Game End
 
-The game ends after a player plays the `Cosmic Apple` card.
+The game ends after a player plays the `Cosmic Apple` card, or after only one player is left in the game.
+
+## Strategy
+You want to balance how many cards you have in your hand and how fast you draw through the deck. If you draw too fast, you may be forced to play your hand. If you are out of cards in your hand, you are vulnerable to drawing the `Poison Apple`. If you take it too slow and hoard cards, another player may begin playing your cards for you, or find the `Cosmic Apple` before you have a chance.
+
+## Card Overview
+
+### Cosmic and Poison Apples
+The `Cosmic Apple` is the most important card in the game. Once it is played, the game ends, and the player that played it is the winner. As you draw cards you have to be careful not to draw any `Poison Apple` cards. As soon as you do, you have to discard a card from your hand. If you have no cards in your hand, you are eliminated from the game.
+
+![cosmic-apple]
+![poison-apple]
+
+### Attack and Defense Cards
+Use attack cards like `Fire Apple` and `Golden Apple` to target other players. Defend yourself from attacks with the `Crystal Apple`.
+
+![fire-apple]
+![golden-apple]
+![crystal-apple]
+
+
+### Manipulation Cards
+The remaining cards allow you to manipulate the deck, your hand, or how fast you draw from the deck.
+
+![lush-apple]
+![lightning-apple]
+![liquid-apple]
+![mystic-apple]
+![rainbow-apple]
+
 
 [screen-1]: assets/cosmic-apple.png
+[cosmic-apple]: guide/cosmic-apple.png
+[crystal-apple]: guide/crystal-apple.png
+[fire-apple]: guide/fire-apple.png
+[golden-apple]: guide/golden-apple.png
+[lightning-apple]: guide/lightning-apple.png
+[liquid-apple]: guide/liquid-apple.png
+[lush-apple]: guide/lush-apple.png
+[mystic-apple]: guide/mystic-apple.png
+[poison-apple]: guide/poison-apple.png
+[rainbow-apple]: guide/rainbow-apple.png

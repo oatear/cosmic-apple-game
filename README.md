@@ -1,5 +1,7 @@
 <div align="center">
 
+![screen-1]
+        
 # Cosmic Apple
 
 </div>
@@ -26,3 +28,5 @@ it began mutating apples at an unnatural rate and squeezing them into new forms 
 ## Game End
 
 The game ends after a player plays the `Cosmic Apple` card.
+
+[screen-1]: assets/cosmic-apple.png

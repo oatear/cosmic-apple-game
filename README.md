@@ -74,7 +74,11 @@ The remaining cards allow you to manipulate the deck, your hand, or how fast you
 ![mystic-apple]
 ![rainbow-apple]
 
+## Acknowledgements
+Game created using [Cider][cider].
 
+
+[cider]: https://github.com/oatear/cider
 [screen-1]: assets/cosmic-apple.png
 [cosmic-apple]: guide/cosmic-apple.png
 [crystal-apple]: guide/crystal-apple.png

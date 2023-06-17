@@ -54,26 +54,19 @@ You want to balance how many cards you have in your hand and how fast you draw t
 ### Cosmic and Poison Apples
 The `Cosmic Apple` is the most important card in the game. Once it is played, the game ends, and the player that played it is the winner. As you draw cards you have to be careful not to draw any `Poison Apple` cards. As soon as you do, you have to discard a card from your hand. If you have no cards in your hand, you are eliminated from the game.
 
-<img src="guide/cosmic-apple.png" width=300>
-<img src="guide/poison-apple.png" width=300>
+<img src="guide/cosmic-apple.png" width=300> <img src="guide/poison-apple.png" width=300>
 
 ### Attack and Defense Cards
 Use attack cards like `Fire Apple` and `Golden Apple` to target other players. Defend yourself from attacks with the `Crystal Apple`.
 
-<img src="guide/fire-apple.png" width=300>
-<img src="guide/golden-apple.png" width=300>
-<img src="guide/crystal-apple.png" width=300>
+<img src="guide/fire-apple.png" width=300> <img src="guide/golden-apple.png" width=300> <img src="guide/crystal-apple.png" width=300>
 
 
 ### Manipulation Cards
 The remaining cards allow you to manipulate the deck, your hand, or how fast you draw from the deck.
 
 
-<img src="guide/lush-apple.png" width=300>
-<img src="guide/lightning-apple.png" width=300>
-<img src="guide/liquid-apple.png" width=300>
-<img src="guide/mystic-apple.png" width=300>
-<img src="guide/rainbow-apple.png" width=300>
+<img src="guide/lush-apple.png" width=300> <img src="guide/lightning-apple.png" width=300> <img src="guide/liquid-apple.png" width=300> <img src="guide/mystic-apple.png" width=300> <img src="guide/rainbow-apple.png" width=300>
 
 ## Acknowledgements
 Game created using [Cider][cider].

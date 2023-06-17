@@ -4,6 +4,10 @@
         
 # Cosmic Apple
 
+[![][stars]][gh-url]
+[![][release]][gh-url]
+[![][last-commit]][gh-url]
+
 ## Game Type
 `Elimination`, `Hand Management`, `Push Your Luck`, `Take That`
 
@@ -71,6 +75,9 @@ The remaining cards allow you to manipulate the deck, your hand, or how fast you
 ## Acknowledgements
 Game created using [Cider][cider].
 
-
+[gh-url]: https://github.com/oatear/cosmic-apple-game
+[stars]: https://badgen.net/github/stars/oatear/cosmic-apple-game?cache=600
+[release]: https://badgen.net/github/release/oatear/cosmic-apple-game?cache=600
+[last-commit]: https://img.shields.io/github/last-commit/oatear/cosmic-apple-game
 [cider]: https://github.com/oatear/cider
 [screen-1]: assets/cosmic-apple.png
